@@ -64,3 +64,34 @@ body{
     border-radius: 20px;
     border: 1px solid white;
 }
+
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.member-item{
+    display: inline-block;
+    width: 350px;
+    box-shadow: 0 0 15px #bbbbbb;
+    margin: 10px;
+}
+
+.member-pic{
+    width: 100%;
+}
+
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.member-bio{
+    margin: 20px;
+    text-align: justify;
+}
