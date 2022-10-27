@@ -95,3 +95,55 @@ body{
     margin: 20px;
     text-align: justify;
 }
+
+.about{
+    height: 700px;
+    background-image: url(../images/bg.jpg);
+    background-blend-mode: multiply;
+    background-color: #515151;
+    background-size: cover;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.circle{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: rgba(135,135,135,0.5);
+    margin: auto;
+    padding: 100px 120px;
+}
+
+.circle h2{
+    font-size: 35px;
+}
+
+.circle p{
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: #c0c0c0;
+    height: 220px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.pic-list{
+    background-color: #787777;
+    height: 95px;
+    margin: auto;
+    list-style-type: none;
+}
+
+.pic-item{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer p{
+    margin-top: 30px;
+}
