@@ -25,7 +25,7 @@ body{
     background-size: cover;
     text-align: center;
     color: white;
-    height: 550px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center; 
     padding-top: 40px;
@@ -47,7 +47,7 @@ body{
 .header h1{
     font-size: 60px;
     font-family: lalezar;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .header h1 span{
@@ -59,7 +59,7 @@ body{
     height: 55px;
     line-height: 55px;
     margin:auto;
-    margin-top: 30px;
+    margin-top: 80px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 20px;
     border: 1px solid white;
@@ -80,6 +80,10 @@ body{
     width: 350px;
     box-shadow: 0 0 15px #bbbbbb;
     margin: 10px;
+}
+
+.member-item:hover{
+    background-color: rgb(230,230,230);
 }
 
 .member-pic{
@@ -120,6 +124,10 @@ body{
     font-size: 35px;
 }
 
+.circle h2:hover{
+    color: orange;
+}
+
 .circle p{
     margin-top: 40px;
     text-align: justify;
@@ -142,6 +150,12 @@ body{
 .pic-item{
     display: inline-block;
     margin-top: 10px;
+}
+
+.pic-item:hover{
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
 }
 
 .footer p{
